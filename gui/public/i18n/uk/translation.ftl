@@ -1,718 +1,861 @@
-# Please developers (not translators) don't reuse a key inside another key
-# or concat text with a translation string in the code, use the appropriate
-# features like variables and selectors in each appropriate case!
-# And also comment the string if it's something not easy to translate, so you help
-# translators on what it means
-
-
-## Websocket (server) status
-
-websocket-connecting = Підключення до сервера
-websocket-connection_lost = З'єднання з сервером втрачено. Повторне підключення...
-
-## Update notification
-
-version_update-title = Доступна нова версія: { $version }
-version_update-description = Натискання "{ version_update-update }" почнеться завантаження SlimeVR installer.
-version_update-update = Оновлення
-version_update-close = Закрити
-
-## Tips
-
-tips-find_tracker = Не знаєте який трекер вибирати? Потрясіть трекер і він підсвітить відповідний пункт.
-tips-do_not_move_heels = Переконайтеся, що не рухаєте п'ятами під час запису!
-tips-file_select = Перетягніть файли для використання або <u>знайдіть</u>.
-tips-tap_setup = Ви можете повільно постукати 2 рази по трекеру, щоб вибрати його, замість того, щоб вибирати його з меню.
-
-## Body parts
-
-body_part-NONE = Не призначено
-body_part-HEAD = Голова
-body_part-NECK = Шия
-body_part-RIGHT_SHOULDER = Праве плече
-body_part-RIGHT_UPPER_ARM = Права верхня частина руки
-body_part-RIGHT_LOWER_ARM = Права нижня частина руки
-body_part-RIGHT_HAND = Права рука
-body_part-RIGHT_UPPER_LEG = Праве стегно
-body_part-RIGHT_LOWER_LEG = Права щиколотка
-body_part-RIGHT_FOOT = Права нога
-body_part-UPPER_CHEST = Верхня частина грудей
-body_part-CHEST = Груди
-body_part-WAIST = Талія
-body_part-HIP = Стегно
-body_part-LEFT_SHOULDER = Ліве плече
-body_part-LEFT_UPPER_ARM = Ліва верхня частина руки
-body_part-LEFT_LOWER_ARM = Ліва нижня частина руки
-body_part-LEFT_HAND = Ліва рука
-body_part-LEFT_UPPER_LEG = Ліве стегно
-body_part-LEFT_LOWER_LEG = Ліва щиколотка
-body_part-LEFT_FOOT = Ліва нога
-
-## Proportions
-
-skeleton_bone-NONE = Нічого
-skeleton_bone-HEAD = Зсув голови
-skeleton_bone-NECK = Довжина шиї
-skeleton_bone-torso_group = Довжина тулуба
-skeleton_bone-UPPER_CHEST = Довжина верхньої частини грудей
-skeleton_bone-CHEST_OFFSET = Зміщення грудної клітини
-skeleton_bone-CHEST = Довжина грудей
-skeleton_bone-WAIST = Довжина талії
-skeleton_bone-HIP = Довжина стегна
-skeleton_bone-HIP_OFFSET = Зміщення стегна
-skeleton_bone-HIPS_WIDTH = Ширина стегон
-skeleton_bone-leg_group = Довжина ніг
-skeleton_bone-UPPER_LEG = Довжина верхньої частини ноги
-skeleton_bone-LOWER_LEG = Довжина гомілки
-skeleton_bone-FOOT_LENGTH = Довжина стопи
-skeleton_bone-FOOT_SHIFT = Зміщення стопи
-skeleton_bone-SKELETON_OFFSET = Зміщення скелета
-skeleton_bone-SHOULDERS_DISTANCE = Відстань між плечима
-skeleton_bone-SHOULDERS_WIDTH = Ширина плечей
-skeleton_bone-arm_group = Довжина руки
-skeleton_bone-UPPER_ARM = Довжина верхньої частини руки
-skeleton_bone-LOWER_ARM = Довжина нижньої частини руки
-skeleton_bone-HAND_Y = Відстань рук Y
-skeleton_bone-HAND_Z = Відстань руки Z
-skeleton_bone-ELBOW_OFFSET = Зміщення ліктя
-
-## Tracker reset buttons
-
-reset-reset_all = Скинути всі пропорції
-reset-full = Повне скидання
-reset-mounting = Скинути закріплення
-reset-yaw = Скинути нахил
-
-## Serial detection stuff
-
-serial_detection-new_device-p0 = Виявлено новий послідовний пристрій!
-serial_detection-new_device-p1 = Введіть дані вашого Wi-Fi!
-serial_detection-new_device-p2 = Будь ласка, виберіть, що ви хочете з ним зробити
-serial_detection-open_wifi = Підключити до Wi-Fi
-serial_detection-open_serial = Відкрити послідовну консоль
-serial_detection-submit = Підтвердити!
-serial_detection-close = Закрити
-
-## Navigation bar
-
-navbar-home = Домашня сторінка
-navbar-body_proportions = Пропорції тіла
-navbar-trackers_assign = Призначення трекера
-navbar-mounting = Калібрування закріплення
-navbar-onboarding = Майстер налаштування
-navbar-settings = Параметри
-
-## Biovision hierarchy recording
-
-bvh-start_recording = Запис BVH
-bvh-recording = Запис...
-
-## Tracking pause
-
-tracking-unpaused = Призупинити трекінг
-tracking-paused = Продовжити трекінг
-
-## Widget: Overlay settings
-
-widget-overlay = Накладання
-widget-overlay-is_visible_label = Показати накладання у SteamVR
-widget-overlay-is_mirrored_label = Відображення накладання як дзеркала
-
-## Widget: Drift compensation
-
-widget-drift_compensation-clear = Очистити компенсацію дрейфу
-
-## Widget: Developer settings
-
-widget-developer_mode = Режим розробника
-widget-developer_mode-high_contrast = Висока контрастність
-widget-developer_mode-precise_rotation = Точне обертання
-widget-developer_mode-fast_data_feed = Швидка подача даних
-widget-developer_mode-filter_slimes_and_hmd = Фільтрація слаймів і шолому
-widget-developer_mode-sort_by_name = Сортування за назвою
-widget-developer_mode-raw_slime_rotation = Необроблене обертання
-widget-developer_mode-more_info = Детальніше
-
-## Widget: IMU Visualizer
-
-widget-imu_visualizer = Обертання
-widget-imu_visualizer-rotation_raw = Необроблене
-widget-imu_visualizer-rotation_preview = Попередній перегляд
-widget-imu_visualizer-rotation_hide = Приховати
-
-## Tracker status
-
-tracker-status-none = Немає статусу
-tracker-status-busy = Зайнятий
-tracker-status-error = Помилка
-tracker-status-disconnected = Відключено
-tracker-status-occluded = Закрито
-tracker-status-ok = OK
-
-## Tracker status columns
-
-tracker-table-column-name = Ім'я
-tracker-table-column-type = Тип
-tracker-table-column-battery = Батарея
-tracker-table-column-ping = Пінг
-tracker-table-column-tps = TPS
-tracker-table-column-temperature = Темп. °C
-tracker-table-column-linear-acceleration = Прискорення X/Y/Z
-tracker-table-column-rotation = Обертання X/Y/Z
-tracker-table-column-position = Позиція X/Y/Z
-tracker-table-column-url = URL
-
-## Tracker rotation
-
-tracker-rotation-front = Спереду
-tracker-rotation-left = Зліва
-tracker-rotation-right = Справа
-tracker-rotation-back = Ззаду
-
-## Tracker information
-
-tracker-infos-manufacturer = Виробник
-tracker-infos-display_name = Відображуване ім'я
-tracker-infos-custom_name = Персональне ім'я
-tracker-infos-url = URL трекера
-tracker-infos-version = Версія прошивки
-tracker-infos-hardware_rev = Ревізія обладнання
-tracker-infos-hardware_identifier = Ідентифікатор обладнання
-tracker-infos-imu = IMU Сенсор
-tracker-infos-board_type = Основна плата
-
-## Tracker settings
-
-tracker-settings-back = Повернутися до списку трекерів
-tracker-settings-title = Налаштування трекеру
-tracker-settings-assignment_section = Призначення
-tracker-settings-assignment_section-description = До якої частини тіла призначенний трекер.
-tracker-settings-assignment_section-edit = Редагування призначення
-tracker-settings-mounting_section = Позиція закріпу
-tracker-settings-mounting_section-description = Де закріплено трекер?
-tracker-settings-mounting_section-edit = Редагувати закріплення
-tracker-settings-drift_compensation_section = Дозволити компенсацію дрейфу
-tracker-settings-drift_compensation_section-description = Чи повинен цей трекер компенсувати свій дрейф, коли включена компенсація дрейфу?
-tracker-settings-drift_compensation_section-edit = Дозволити компенсацію дрейфу
-# The .<name> means it's an attribute and it's related to the top key.
-# In this case that is the settings for the assignment section.
-tracker-settings-name_section = Ім'я трекера
-tracker-settings-name_section-description = Дайте йому миле прізвисько °^°
-tracker-settings-name_section-placeholder = Ліва нога NightyBeast
-
-## Tracker part card info
-
-tracker-part_card-no_name = Немає імені
-tracker-part_card-unassigned = Непризначений
-
-## Body assignment menu
-
-body_assignment_menu = Де ви хочете, щоб був цей трекер?
-body_assignment_menu-description = Виберіть місце, куди потрібно призначити цей трекер. Крім того, ви можете керувати всіма трекерами одночасно, а не по одному.
-body_assignment_menu-show_advanced_locations = Відображення розширених точок розташувань
-body_assignment_menu-manage_trackers = Керування всіма трекерами
-body_assignment_menu-unassign_tracker = Відв'язати трекер
-
-## Tracker assignment menu
-
-# A -translation_key (with a dash in the front) means that it's a label.
-# It can only be used in the translation file, it's nice for reusing names and that kind of stuff.
-#
-# We are using it here because english doesn't require changing the text in each case but
-# maybe your language does.
--tracker_selection-part = Який трекер призначити к
-tracker_selection_menu-NONE = Який трекер ви хочете відв'язати?
-tracker_selection_menu-HEAD = { -tracker_selection-part } голові?
-tracker_selection_menu-NECK = { -tracker_selection-part } шиї?
-tracker_selection_menu-RIGHT_SHOULDER = { -tracker_selection-part } правому плечу?
-tracker_selection_menu-RIGHT_UPPER_ARM = { -tracker_selection-part } правій верхній частині руці?
-tracker_selection_menu-RIGHT_LOWER_ARM = { -tracker_selection-part } правій нижній частині руці?
-tracker_selection_menu-RIGHT_HAND = { -tracker_selection-part } правій руці?
-tracker_selection_menu-RIGHT_UPPER_LEG = { -tracker_selection-part } правому стегну?
-tracker_selection_menu-RIGHT_LOWER_LEG = { -tracker_selection-part } правій щиколотці?
-tracker_selection_menu-RIGHT_FOOT = { -tracker_selection-part } правій ступні?
-tracker_selection_menu-RIGHT_CONTROLLER = { -tracker_selection-part } правому контролеру?
-tracker_selection_menu-UPPER_CHEST = { -tracker_selection-part } верхня частина грудей?
-tracker_selection_menu-CHEST = { -tracker_selection-part } грудям?
-tracker_selection_menu-WAIST = { -tracker_selection-part } талії?
-tracker_selection_menu-HIP = { -tracker_selection-part } стегну?
-tracker_selection_menu-LEFT_SHOULDER = { -tracker_selection-part } Лівому плечу?
-tracker_selection_menu-LEFT_UPPER_ARM = { -tracker_selection-part } лівій верхній частині руки?
-tracker_selection_menu-LEFT_LOWER_ARM = { -tracker_selection-part } лівій нижній частині руці?
-tracker_selection_menu-LEFT_HAND = { -tracker_selection-part } лівій руці?
-tracker_selection_menu-LEFT_UPPER_LEG = { -tracker_selection-part } лівому стегну?
-tracker_selection_menu-LEFT_LOWER_LEG = { -tracker_selection-part } лівій щиколотці
-tracker_selection_menu-LEFT_FOOT = { -tracker_selection-part } лівій ступні?
-tracker_selection_menu-LEFT_CONTROLLER = { -tracker_selection-part } лівому контролеру?
-tracker_selection_menu-unassigned = Непризначені трекери
-tracker_selection_menu-assigned = Призначені трекери
-tracker_selection_menu-dont_assign = Відв'язати
-# This line cares about multilines.
-# <b>text</b> means that the text should be bold.
-tracker_selection_menu-neck_warning =
-    <b>Попередження:</b> Трекер шиї може бути смертельно небезпечним, якщо його регулювати занадто щільно,
-    Ремінь може скоротити кровообіг до вашої голови!
-tracker_selection_menu-neck_warning-done = Я розумію ризики
-tracker_selection_menu-neck_warning-cancel = Скасувати
-
-## Mounting menu
-
-mounting_selection_menu = Де ви хочете, щоб був цей трекер?
-mounting_selection_menu-close = Закрити
-
-## Sidebar settings
-
-settings-sidebar-title = Параметри
-settings-sidebar-general = Загальні
-settings-sidebar-tracker_mechanics = Механіки трекера
-settings-sidebar-fk_settings = Налаштування відстеження
-settings-sidebar-gesture_control = Управління жестами
-settings-sidebar-interface = Інтерфейс
-settings-sidebar-osc_router = OSC роутер
-settings-sidebar-osc_trackers = VRChat OSC трекери
-settings-sidebar-utils = Утиліти
-settings-sidebar-serial = Послідовна консоль
-
-## SteamVR settings
-
-settings-general-steamvr = SteamVR
-settings-general-steamvr-subtitle = SteamVR трекери
-# Not all translation keys support multiline, only the ones that specify it will actually
-# split it in lines (that also means you can split in lines however you want in those).
-# The first spaces (not tabs) for indentation will be ignored, just to make the file look nice when writing.
-# This one is one of this cases that cares about multilines
-settings-general-steamvr-description =
-    Увімкніть або вимкніть певні SteamVR трекери.
-    Корисно для ігор або програм, які підтримують лише певні трекери.
-settings-general-steamvr-trackers-waist = Талія
-settings-general-steamvr-trackers-chest = Груди
-settings-general-steamvr-trackers-feet = Ступні
-settings-general-steamvr-trackers-knees = Коліна
-settings-general-steamvr-trackers-elbows = Лікті
-settings-general-steamvr-trackers-hands = Руки
-
-## Tracker mechanics
-
-settings-general-tracker_mechanics = Механіки трекера
-settings-general-tracker_mechanics-filtering = Фільтрація
-# This also cares about multilines
-settings-general-tracker_mechanics-filtering-description =
-    Виберіть тип фільтрації для своїх трекерів.
-    Передбачення передбачає рух, а згладжування згладжує рух.
-settings-general-tracker_mechanics-filtering-type = Тип фільтрації
-settings-general-tracker_mechanics-filtering-type-none = Без фільтрації
-settings-general-tracker_mechanics-filtering-type-none-description = Використовуйте обертання як є. Ніякої фільтрації не зробить.
-settings-general-tracker_mechanics-filtering-type-smoothing = Згладжування
-settings-general-tracker_mechanics-filtering-type-smoothing-description = Згладжує рухи, але додає деяку затримку.
-settings-general-tracker_mechanics-filtering-type-prediction = Передбачення
-settings-general-tracker_mechanics-filtering-type-prediction-description = Зменшує затримку і робить рухи більш швидкими, але може посилити тремтіння.
-settings-general-tracker_mechanics-filtering-amount = Кількість
-settings-general-tracker_mechanics-drift_compensation = Компенсація дрейфу
-# This cares about multilines
-settings-general-tracker_mechanics-drift_compensation-description =
-    Компенсує дрейф нахилу IMU, застосовуючи зворотне обертання.
-    Змініть суму компенсації та до того, скільки скидань враховано.
-settings-general-tracker_mechanics-drift_compensation-enabled-label = Компенсація дрейфу
-settings-general-tracker_mechanics-drift_compensation-amount-label = Сума компенсації
-settings-general-tracker_mechanics-drift_compensation-max_resets-label = Використання до x останніх скидань
-
-## FK/Tracking settings
-
-settings-general-fk_settings = Налаштування відстеження
-# Floor clip:
-# why the name - came from the idea of noclip in video games, but is the opposite where clipping to the floor is a desired feature
-# definition - Prevents the foot trackers from going lower than they where when a reset was performed
-settings-general-fk_settings-leg_tweak-floor_clip = Прив'язка до підлоги
-# Skating correction:
-# why the name - without this enabled the feet will often slide across the ground as if your skating across the ground,
-# since this largely prevents this it corrects for it hence skating correction (note this may be renamed to sliding correction)
-# definition - Guesses when each foot is in contact with the ground and uses that information to improve tracking
-settings-general-fk_settings-leg_tweak-skating_correction = корекція ковзання
-settings-general-fk_settings-leg_tweak-toe_snap = корекція пальців ноги
-settings-general-fk_settings-leg_tweak-foot_plant = корекція ступні
-settings-general-fk_settings-leg_tweak-skating_correction-amount = Сила корекції ковзання
-settings-general-fk_settings-leg_tweak-skating_correction-description = Корекція ковзання коригує катання на ковзанах, але може знизити точність певних моделей руху. Увімкнувши це, обов'язково повністю скиньте та відкалібруйте у грі.
-settings-general-fk_settings-leg_tweak-floor_clip-description = Прив'язка до підлоги може зменшити або навіть прибрати проходження через підлогу. Коли вмикаєте, обов'язково зробіть повне скидання і перекалібровку у грі
-settings-general-fk_settings-leg_tweak-toe_snap-description = Корекція пальців ноги намагається вгадати обертання ваших ступень, якщо трекери для них не використовуються
-settings-general-fk_settings-leg_tweak-foot_plant-description = Корекція ступні повертає ваші ступні так, щоб вони були паралельні землі при контакті
-settings-general-fk_settings-leg_fk = Трекінг ноги
-settings-general-fk_settings-arm_fk = Трекінг руки
-settings-general-fk_settings-arm_fk-description = Намагатися відстежувати руки за допомогою шолома, навіть якщо є інформація о позиції руки
-settings-general-fk_settings-arm_fk-force_arms = Відстеження рук з шолома
-settings-general-fk_settings-skeleton_settings = Налаштування скелета
-settings-general-fk_settings-skeleton_settings-description = Увімкніть або вимкніть налаштування скелета. Рекомендується залишити їх увімкненими.
-settings-general-fk_settings-skeleton_settings-extended_spine = Подовжений хребет
-settings-general-fk_settings-skeleton_settings-extended_pelvis = Розширений таз
-settings-general-fk_settings-skeleton_settings-extended_knees = Подовжене коліно
-settings-general-fk_settings-vive_emulation-title = Емуляція Vive
-settings-general-fk_settings-vive_emulation-description = Емуляція проблем з трекером талії, які є у трекерів Vive. Це жарт і погіршує відстеження.
-settings-general-fk_settings-vive_emulation-label = Увімкнути емуляцію Vive
-
-## Gesture control settings (tracker tapping)
-
-settings-general-gesture_control = Управління жестами
-settings-general-gesture_control-subtitle = Скидання на основі дотику
-settings-general-gesture_control-description = Дозволяє запускати скидання, торкнувшись трекера. Трекер найвищий на вашому тулубі використовується для скидання нахилу, трекер найвищий на лівій нозі використовується для повного скидання, а трекер найвищий на правій нозі використовується для скидання закріплення. Слід зазначити, що дотики повинні відбутися протягом 0,6 секунди для реєстрації.
-# This is a unit: 3 taps, 2 taps, 1 tap
-# $amount (Number) - Amount of taps (touches to the tracker's case)
-settings-general-gesture_control-taps =
-    { $amount ->
-        [one] 1 дотик
-        [few] 2 дотика
-        [many] { $amount } дотиків
-       *[other] { $amount } дотиків
-    }
-settings-general-gesture_control-yawResetEnabled = Увімкнути дотик, щоб скинути нахил
-settings-general-gesture_control-yawResetDelay = Затримка скидання нахилу
-settings-general-gesture_control-yawResetTaps = Дотики для скидання нахилу
-settings-general-gesture_control-fullResetEnabled = Увімкнути дотик для повного скидання
-settings-general-gesture_control-fullResetDelay = Затримка повного скидання
-settings-general-gesture_control-fullResetTaps = Дотики для повного скидання
-settings-general-gesture_control-mountingResetEnabled = Увімкнути дотик для скидання прив'язки
-settings-general-gesture_control-mountingResetDelay = Затримка скидання прив'язки
-settings-general-gesture_control-mountingResetTaps = Дотики для скидання прив'язки
-
-## Interface settings
-
-settings-general-interface = Інтерфейс
-settings-general-interface-dev_mode = Режим розробника
-settings-general-interface-dev_mode-description = Цей режим може бути корисним, якщо вам потрібні поглиблені дані або для взаємодії з підключеними трекерами на більш просунутому рівні.
-settings-general-interface-dev_mode-label = Режим розробника
-settings-general-interface-serial_detection = Виявлення послідовного пристрою
-settings-general-interface-serial_detection-description = Цей параметр відображатиме спливаюче вікно кожного разу, коли ви підключаєте новий послідовний пристрій, який може бути трекером. Це допомагає покращити процес налаштування трекера.
-settings-general-interface-serial_detection-label = Виявлення послідовного пристрою
-settings-general-interface-feedback_sound = Звук зворотного зв'язку
-settings-general-interface-feedback_sound-description = Ця опція відтворюватиме звуковий сигнал при спрацьовуванні скидання
-settings-general-interface-feedback_sound-label = Звук зворотного зв'язку
-settings-general-interface-feedback_sound-volume = Гучність звуку зворотного зв'язку
-settings-general-interface-theme = Варіація оформлення
-settings-general-interface-lang = Виберіть мову
-settings-general-interface-lang-description = Змініть мову за замовчуванням, яку ви хочете використовувати.
-settings-general-interface-lang-placeholder = Виберіть мову для використання
-
-## Serial settings
-
-settings-serial = Послідовна консоль
-# This cares about multilines
-settings-serial-description =
-    Це інформаційна стрічка для послідовного зв'язку.
-    Може бути корисним, якщо вам потрібно знати, що прошивка не працює.
-settings-serial-connection_lost = Підключення до послідовного пристрою втрачене, повторне підключення...
-settings-serial-reboot = Перезавантажити
-settings-serial-factory_reset = Скидання до заводських налаштувань
-# This cares about multilines
-# <b>text</b> means that the text should be bold
-settings-serial-factory_reset-warning =
-    <b>Попередження:</b> Це скине трекер до заводських налаштувань.
-    Це означає, що Wi-Fi та налаштування калібрування <b>будуть втрачені!</b>
-settings-serial-factory_reset-warning-ok = Я знаю, що роблю
-settings-serial-factory_reset-warning-cancel = Скасувати
-settings-serial-get_infos = Отримати інформацію
-settings-serial-serial_select = Вибір послідовного порту
-settings-serial-auto_dropdown_item = Автоматично
-
-## OSC router settings
-
-settings-osc-router = OSC роутер
-# This cares about multilines
-settings-osc-router-description =
-    Пересилання повідомлень OSC з іншої програми.
-    Корисно для використання іншої програми OSC з VRChat, наприклад.
-settings-osc-router-enable = Увімкнути
-settings-osc-router-enable-description = Увімкнути пересилання повідомлень.
-settings-osc-router-enable-label = Увімкнути
-settings-osc-router-network = Мережеві порти
-# This cares about multilines
-settings-osc-router-network-description =
-    Встановіть порти для прослуховування і відправки даних.
-    Вони можуть бути такими ж, як і інші порти, що використовуються на сервері SlimeVR.
-settings-osc-router-network-port_in =
-    .label = Вхідний Порт
-    .placeholder = Вхідний Порт (зазвичай: 9002)
-settings-osc-router-network-port_out =
-    .label = Вихідний Порт
-    .placeholder = Вихідний Порт (зазвичай: 9000)
-settings-osc-router-network-address = Мережева адреса
-settings-osc-router-network-address-description = Укажіть адресу для надсилання даних за адресою.
-settings-osc-router-network-address-placeholder = IPV4-адреса
-
-## OSC VRChat settings
-
-settings-osc-vrchat = VRChat OSC трекери
-# This cares about multilines
-settings-osc-vrchat-description =
-    Змініть специфічні для VRChat налаштування для отримання даних шолому та надсилання
-    даних трекерів для FBT без SteamVR (наприклад, автономний Quest).
-settings-osc-vrchat-enable = Увімкнути
-settings-osc-vrchat-enable-description = Перемикайте відправку та отримання даних.
-settings-osc-vrchat-enable-label = Увімкнути
-settings-osc-vrchat-network = Мережеві порти
-settings-osc-vrchat-network-description = Встановіть порти для прослуховування і відправки даних в VRChat.
-settings-osc-vrchat-network-port_in =
-    .label = Вхідний Порт
-    .placeholder = Вхідний Порт (зазвичай: 9001)
-settings-osc-vrchat-network-port_out =
-    .label = Вихідний Порт
-    .placeholder = Вихідний Порт (зазвичай: 9000)
-settings-osc-vrchat-network-address = Мережева адреса
-settings-osc-vrchat-network-address-description = Виберіть, за якою адресою надсилати дані до VRChat (перевірте налаштування Wi-Fi на своєму пристрої).
-settings-osc-vrchat-network-address-placeholder = IP-адреса VRChat
-settings-osc-vrchat-network-trackers = Трекери
-settings-osc-vrchat-network-trackers-description = Перемикання відправку конкретних трекерів через OSC.
-settings-osc-vrchat-network-trackers-chest = Груди
-settings-osc-vrchat-network-trackers-hip = Бедро
-settings-osc-vrchat-network-trackers-knees = Коліна
-settings-osc-vrchat-network-trackers-feet = Ступні
-settings-osc-vrchat-network-trackers-elbows = Лікті
-
-## VMC OSC settings
-
-settings-osc-vmc = Віртуальне захоплення руху
-# This cares about multilines
-settings-osc-vmc-description =
-    Змінення настройок протоколу VMC (Virtual Motion Capture)
-        щоб надсилати дані про кістки SlimeVR та отримувати дані про кістки з інших програм.
-settings-osc-vmc-enable = Увімкнути
-settings-osc-vmc-enable-description = Перемикайте відправку та отримання даних.
-settings-osc-vmc-enable-label = Увімкнути
-settings-osc-vmc-network = Мережеві порти
-settings-osc-vmc-network-description = Встановіть порти для прослуховування і відправки даних по VMC
-settings-osc-vmc-network-port_in =
-    .label = Вхідний Порт
-    .placeholder = Вхідний Порт (зазвичай: 39540)
-settings-osc-vmc-network-port_out =
-    .label = Вихідний Порт
-    .placeholder = Вихідний Порт (зазвичай: 39539)
-settings-osc-vmc-network-address = Мережева адреса
-settings-osc-vmc-network-address-description = Виберіть, за якою адресою надсилати дані через VMC
-settings-osc-vmc-network-address-placeholder = IPV4-адреса
-settings-osc-vmc-vrm = Модель VRM
-settings-osc-vmc-vrm-description = Завантажте модель VRM, щоб дозволити головний якір і забезпечити більш високу сумісність з іншими програмами
-settings-osc-vmc-vrm-model_unloaded = Модель не завантажена
-settings-osc-vmc-vrm-model_loaded =
-    { $titled ->
-        [true] Модель завантажена: { $name }
-       *[other] Завантажена модель без назви
-    }
-settings-osc-vmc-vrm-file_select = Перетягніть модель для використання або <u>знайдіть</u>
-settings-osc-vmc-anchor_hip = Якір у стегон
-settings-osc-vmc-anchor_hip-description = Закріпіть стеження на стегнах, корисно для сидячих VTubing. Якщо вимкнено, завантажте модель VRM.
-settings-osc-vmc-anchor_hip-label = Якір у стегон
-
-## Setup/onboarding menu
-
-onboarding-skip = Пропустити налаштування
-onboarding-continue = Продовжити
-onboarding-wip = В роботі
-onboarding-previous_step = Попередній крок
-onboarding-setup_warning =
-    <b>Попередження:</b> Початкова настройка потрібна для хорошого відстеження,
-    це потрібно, якщо ви вперше використовуєте SlimeVR.
-onboarding-setup_warning-skip = Пропустити налаштування
-onboarding-setup_warning-cancel = Продовжити налаштування
-
-## Wi-Fi setup
-
-onboarding-wifi_creds-back = Повернутися до вступу
-onboarding-wifi_creds = Введіть дані Wi-Fi
-# This cares about multilines
-onboarding-wifi_creds-description =
-    Трекери використовуватимуть ці дані для бездротового підключення.
-    Будь ласка, використовуйте дані, до яких ви зараз підключені.
-onboarding-wifi_creds-skip = Пропустити налаштування Wi-Fi
-onboarding-wifi_creds-submit = Підтвердити!
-onboarding-wifi_creds-ssid =
-    .label = Назва Wi-Fi
-    .placeholder = Введіть назву Wi-Fi
-onboarding-wifi_creds-password =
-    .label = Пароль
-    .placeholder = Введіть Пароль
-
-## Mounting setup
-
-onboarding-reset_tutorial-back = Повернутися до розділу Калібрування прив'язки
-onboarding-reset_tutorial = Інструкція по скиданню
-onboarding-reset_tutorial-explanation = Коли ви використовуєте свої трекери, вони можуть вийти з вирівнювання через дрейф нахилу IMU або тому, що ви могли їх фізично перемістити. Це можна виправити кількома способами.
-onboarding-reset_tutorial-skip = Пропустити крок
-# Cares about multiline
-onboarding-reset_tutorial-0 =
-    Торкніться { $taps } виділеного трекера, щоб запустити скидання нахилу.
-    
-    Це змусить трекери дивитися в тому ж напрямку, що і ваш шолом.
-# Cares about multiline
-onboarding-reset_tutorial-1 =
-    Торкніться { $taps } виділеного трекера, щоб ініціювати повне скидання.
-    
-    Для цього потрібно стояти (i-поза). Існує затримка 3 секунди (налаштовується), перш ніж це дійсно станеться.
-    Це повністю скидає положення та обертання всіх ваших трекерів. Це має вирішити більшість проблем.
-# Cares about multiline
-onboarding-reset_tutorial-2 =
-    Торкніться { $taps } виділеного елемента стеження, щоб активувати скидання прив'язки.
-    
-    Скидання прив'язки допомагає в тому, як трекери насправді надягнені на вас, тому, якщо ви випадково перемістили їх і змінили місце прикріплення на велику кількість, це допоможе.
-    
-    Вам потрібно бути в позі, ніби ви катаєтеся на лижах, як показано на майстрі автоматичної прив'язки, і у вас є 3-секундна затримка (налаштовується), перш ніж вона спрацює.
-
-## Setup start
-
-onboarding-home = Ласкаво просимо до SlimeVR
-onboarding-home-start = Давайте налаштуємося!
-
-## Enter VR part of setup
-
-onboarding-enter_vr-back = Повернутися до Прив'язки трекерів
-onboarding-enter_vr-title = Час вступати у VR!
-onboarding-enter_vr-description = Увімкніть усі свої трекери, а потім вступіть у VR!
-onboarding-enter_vr-ready = Я готовий
-
-## Setup done
-
-onboarding-done-title = Все готово!
-onboarding-done-description = Насолоджуйтесь досвідом трекінгу всього тіла
-onboarding-done-close = Закрити налаштування
-
-## Tracker connection setup
-
-onboarding-connect_tracker-back = Повернутися до даних Wi-Fi
-onboarding-connect_tracker-title = Підключіть трекери
-onboarding-connect_tracker-description-p0 = Тепер перейдемо до найцікавішого, з'єднання усіх трекерів!
-onboarding-connect_tracker-description-p1 = Просто підключіть все, що ще не підключено, через USB-порт.
-onboarding-connect_tracker-issue-serial = У мене виникли проблеми з підключенням!
-onboarding-connect_tracker-usb = USB-трекер
-onboarding-connect_tracker-connection_status-none = Шукаємо трекери
-onboarding-connect_tracker-connection_status-serial_init = Підключення до послідовного пристрою
-onboarding-connect_tracker-connection_status-provisioning = Надсилання даних Wi-Fi
-onboarding-connect_tracker-connection_status-connecting = Спроба підключення до Wi-Fi
-onboarding-connect_tracker-connection_status-looking_for_server = Шукаю сервер
-onboarding-connect_tracker-connection_status-connection_error = Не вдається підключитися до мережі Wi-Fi
-onboarding-connect_tracker-connection_status-could_not_find_server = Не вдалося знайти сервер
-onboarding-connect_tracker-connection_status-done = Підключено до сервера
-# $amount (Number) - Amount of trackers connected (this is a number, but you can use CLDR plural rules for your language)
-# More info on https://www.unicode.org/cldr/cldr-aux/charts/22/supplemental/language_plural_rules.html
-# English in this case only has 2 plural rules, which are "one" and "other",
-# we use 0 in an explicit way because there is no plural rule in english for 0, so we directly say
-# if $amount is 0 then we say "No trackers connected"
-onboarding-connect_tracker-connected_trackers =
-    { $amount ->
-        [0] Трекери не підключенно
-        [one] 1 трекер підключенний
-        [few] { $amount } трекерів підключенно
-        [many] { $amount } трекерів підключенно
-       *[other] { $amount } трекерів підключенно
-    }
-onboarding-connect_tracker-next = Я підключив усі свої трекери
-
-## Tracker calibration tutorial
-
-onboarding-calibration_tutorial = Інструкція з калібрування IMU
-onboarding-calibration_tutorial-subtitle = Це допоможе зменшити дрейф трекера!
-onboarding-calibration_tutorial-description = Кожен раз, коли ви вмикаєте трекери, їм потрібно на мить відпочити на рівній поверхні для калібрування. Давайте зробимо те ж саме, натиснувши кнопку "{ onboarding-calibration_tutorial-calibrate }", <b>не переміщайте їх!</b>
-onboarding-calibration_tutorial-calibrate = Я поклав свої трекери на стіл
-onboarding-calibration_tutorial-status-waiting = Чекаємо на Вас
-onboarding-calibration_tutorial-status-calibrating = Калібрування
-onboarding-calibration_tutorial-status-success = Добре!
-onboarding-calibration_tutorial-status-error = Трекер переміщено
-
-## Tracker assignment tutorial
-
-onboarding-assignment_tutorial = Як підготувати Slime трекер перед його надяганням
-onboarding-assignment_tutorial-first_step = 1. Розмістіть наліпку з частиною тіла (якщо вона у вас є) на трекері відповідно до вашого вибору
-# This text has a character limit of around 11 characters, so please keep it short
-onboarding-assignment_tutorial-sticker = Наліпка
-onboarding-assignment_tutorial-second_step = 2. Прикріпіть ремінь до трекера, зберігаючи гачок і петльову сторону лицьової сторони ремінця в такій орієнтації:
-onboarding-assignment_tutorial-second_step-continuation = Гачок і петльова сторона для подовжувача повинні бути в такій орієнтації:
-onboarding-assignment_tutorial-done = Я наклеїв наліпки і закріпив ремінці!
-
-## Tracker assignment setup
-
-onboarding-assign_trackers-back = Повернутися до даних Wi-Fi
-onboarding-assign_trackers-title = Призначити трекери
-onboarding-assign_trackers-description = Давайте виберемо, який трекер куди йде. Натисніть на місце, де ви хочете розмістити трекер
-# Look at translation of onboarding-connect_tracker-connected_trackers on how to use plurals
-# $assigned (Number) - Trackers that have been assigned a body part
-# $trackers (Number) - Trackers connected to the server
-onboarding-assign_trackers-assigned =
-    { $trackers ->
-        [one] { $assigned } з 1 трекеру призначенно
-        [few] { $assigned } з { $trackers } трекерів призначенно
-        [many] { $assigned } з { $trackers } трекерів призначенно
-       *[other] { $assigned } з { $trackers } трекерів призначенно
-    }
-onboarding-assign_trackers-advanced = Відобразити розширені розташування призначень
-onboarding-assign_trackers-next = Я призначив усі трекери
-
-## Tracker assignment warnings
-
-# Note for devs, number is used for representing boolean states per bit.
-# $unassigned (Number) - Bits are based on BodyAssignment.ASSIGNMENT_RULES order
-onboarding-assign_trackers-warning-LEFT_FOOT =
-    { $unassigned ->
-        [0] Ліва нога призначенна, але треба ще ліва щиколотка, ліве стегно та на вибір груди, бедро або талія повинні бути призначенні
-        [1] Ліва ступня призначенна, але в тебе повинно бути ліве стегно і на вибір груди, бедро або талія теж призначенні
-        [2] Ліва ступня призначенна, але в тебе повинно бути ще ліва щиколотка та на вибір груди, бедро або талія теж призначенні
-        [3] Ліва ступня призначенна, але тобі ще треба на вибір груди, бедро або талія теж призначенні
-        [4] Ліва ступня призначенна, але тобі ще потрібно ліва щиколотка і ліве стегно теж призначенні
-        [5] Ліва ступня призначенна, але тобі ще потрібно ліве стегно теж призначити
-        [6] Ліва ступня призначенна, але тобі ще треба ліву щиколотку теж призначити
-       *[other] Ліва ступня призначенна, але тобі ще треба Невідома кількість непризначенних частин тіла теж призначенні
-    }
-
-## Tracker mounting method choose
-
-onboarding-choose_mounting = Який метод калібрування закріплення використовувати?
-# Multiline text
-onboarding-choose_mounting-description = Орієнтація кріплення коригується для розміщення трекерів на вашому тілі.
-onboarding-choose_mounting-auto_mounting = Автоматична прив'язка
-# Italized text
-onboarding-choose_mounting-auto_mounting-label = Експериментальний
-onboarding-choose_mounting-auto_mounting-description = Це автоматично визначить напрямки прив'язки для всіх ваших трекерів з 2 поз
-onboarding-choose_mounting-manual_mounting = Ручна прив'язка
-# Italized text
-onboarding-choose_mounting-manual_mounting-label = Рекомендується
-onboarding-choose_mounting-manual_mounting-description = Це дозволить вибрати напрямок прив'язки вручну для кожного трекера
-
-## Tracker manual mounting setup
-
-onboarding-manual_mounting-back = Повернутися до VR
-onboarding-manual_mounting = Ручне закріплення
-onboarding-manual_mounting-description = Натисніть на кожен трекер і виберіть, в який бік вони прив'язані
-onboarding-manual_mounting-auto_mounting = Автоматична прив'язка
-onboarding-manual_mounting-next = Наступний крок
-
-## Tracker automatic mounting setup
-
-onboarding-automatic_mounting-back = Повернутися до VR
-onboarding-automatic_mounting-next = Наступний крок
-onboarding-automatic_mounting-prev_step = Попередній крок
-onboarding-automatic_mounting-done-restart = Спробуйте знову
-
-## Tracker proportions method choose
-
-
-## Tracker manual proportions setup
-
-
-## Tracker automatic proportions setup
-
-onboarding-automatic_proportions-prev_step = Попередній крок
-onboarding-automatic_proportions-requirements-next = Я ознайомився з вимогами
-onboarding-automatic_proportions-start_recording-title = Приготуйтеся рухатися
-onboarding-automatic_proportions-start_recording-next = Почати запис
-onboarding-automatic_proportions-recording-title = ЗАПИС
-onboarding-automatic_proportions-recording-description-p1 = Повторюйте рухи, показані нижче:
-# $time (Number) - Seconds left for the automatic calibration recording to finish (max 20)
-onboarding-automatic_proportions-recording-timer =
-    { $time ->
-        [one] залишилась { $time }  секунда
-        [few] залишилось { $time } секунди
-        [many] залишилось { $time } секунд
-       *[other] залишилось { $time } секунд
-    }
-onboarding-automatic_proportions-verify_results-title = Перевірити результати
-onboarding-automatic_proportions-verify_results-processing = Обробка результату
-
-## Home
-
-
-## Status system
-
+websocket-connecting = meow
+websocket-connection_lost = meow
+version_update-title = meow
+version_update-description = meow
+version_update-update = meow
+version_update-close = meow
+tips-find_tracker = meow
+tips-do_not_move_heels = meow
+tips-file_select = meow
+tips-tap_setup = meow
+tips-turn_on_tracker = meow
+tips-failed_webgl = meow
+body_part-NONE = meow
+body_part-HEAD = meow
+body_part-NECK = meow
+body_part-RIGHT_SHOULDER = meow
+body_part-RIGHT_UPPER_ARM = meow
+body_part-RIGHT_LOWER_ARM = meow
+body_part-RIGHT_HAND = meow
+body_part-RIGHT_UPPER_LEG = meow
+body_part-RIGHT_LOWER_LEG = meow
+body_part-RIGHT_FOOT = meow
+body_part-UPPER_CHEST = meow
+body_part-CHEST = meow
+body_part-WAIST = meow
+body_part-HIP = meow
+body_part-LEFT_SHOULDER = meow
+body_part-LEFT_UPPER_ARM = meow
+body_part-LEFT_LOWER_ARM = meow
+body_part-LEFT_HAND = meow
+body_part-LEFT_UPPER_LEG = meow
+body_part-LEFT_LOWER_LEG = meow
+body_part-LEFT_FOOT = meow
+body_part-LEFT_THUMB_METACARPAL = meow
+body_part-LEFT_THUMB_PROXIMAL = meow
+body_part-LEFT_THUMB_DISTAL = meow
+body_part-LEFT_INDEX_PROXIMAL = meow
+body_part-LEFT_INDEX_INTERMEDIATE = meow
+body_part-LEFT_INDEX_DISTAL = meow
+body_part-LEFT_MIDDLE_PROXIMAL = meow
+body_part-LEFT_MIDDLE_INTERMEDIATE = meow
+body_part-LEFT_MIDDLE_DISTAL = meow
+body_part-LEFT_RING_PROXIMAL = meow
+body_part-LEFT_RING_INTERMEDIATE = meow
+body_part-LEFT_RING_DISTAL = meow
+body_part-LEFT_LITTLE_PROXIMAL = meow
+body_part-LEFT_LITTLE_INTERMEDIATE = meow
+body_part-LEFT_LITTLE_DISTAL = meow
+body_part-RIGHT_THUMB_METACARPAL = meow
+body_part-RIGHT_THUMB_PROXIMAL = meow
+body_part-RIGHT_THUMB_DISTAL = meow
+body_part-RIGHT_INDEX_PROXIMAL = meow
+body_part-RIGHT_INDEX_INTERMEDIATE = meow
+body_part-RIGHT_INDEX_DISTAL = meow
+body_part-RIGHT_MIDDLE_PROXIMAL = meow
+body_part-RIGHT_MIDDLE_INTERMEDIATE = meow
+body_part-RIGHT_MIDDLE_DISTAL = meow
+body_part-RIGHT_RING_PROXIMAL = meow
+body_part-RIGHT_RING_INTERMEDIATE = meow
+body_part-RIGHT_RING_DISTAL = meow
+body_part-RIGHT_LITTLE_PROXIMAL = meow
+body_part-RIGHT_LITTLE_INTERMEDIATE = meow
+body_part-RIGHT_LITTLE_DISTAL = meow
+board_type-UNKNOWN = meow
+board_type-NODEMCU = meow
+board_type-CUSTOM = meow
+board_type-WROOM32 = meow
+board_type-WEMOSD1MINI = meow
+board_type-TTGO_TBASE = meow
+board_type-ESP01 = meow
+board_type-SLIMEVR = meow
+board_type-LOLIN_C3_MINI = meow
+board_type-BEETLE32C3 = meow
+board_type-ES32C3DEVKITM1 = meow
+skeleton_bone-NONE = meow
+skeleton_bone-HEAD = meow
+skeleton_bone-NECK = meow
+skeleton_bone-torso_group = meow
+skeleton_bone-UPPER_CHEST = meow
+skeleton_bone-CHEST_OFFSET = meow
+skeleton_bone-CHEST = meow
+skeleton_bone-WAIST = meow
+skeleton_bone-HIP = meow
+skeleton_bone-HIP_OFFSET = meow
+skeleton_bone-HIPS_WIDTH = meow
+skeleton_bone-leg_group = meow
+skeleton_bone-UPPER_LEG = meow
+skeleton_bone-LOWER_LEG = meow
+skeleton_bone-FOOT_LENGTH = meow
+skeleton_bone-FOOT_SHIFT = meow
+skeleton_bone-SKELETON_OFFSET = meow
+skeleton_bone-SHOULDERS_DISTANCE = meow
+skeleton_bone-SHOULDERS_WIDTH = meow
+skeleton_bone-arm_group = meow
+skeleton_bone-UPPER_ARM = meow
+skeleton_bone-LOWER_ARM = meow
+skeleton_bone-HAND_Y = meow
+skeleton_bone-HAND_Z = meow
+skeleton_bone-ELBOW_OFFSET = meow
+reset-reset_all = meow
+reset-reset_all_warning = meow
+reset-reset_all_warning-reset = meow
+reset-reset_all_warning-cancel = meow
+reset-reset_all_warning_default = meow
+reset-full = meow
+reset-mounting = meow
+reset-yaw = meow
+serial_detection-new_device-p0 = meow
+serial_detection-new_device-p1 = meow
+serial_detection-new_device-p2 = meow
+serial_detection-open_wifi = meow
+serial_detection-open_serial = meow
+serial_detection-submit = meow
+serial_detection-close = meow
+navbar-home = meow
+navbar-body_proportions = meow
+navbar-trackers_assign = meow
+navbar-mounting = meow
+navbar-onboarding = meow
+navbar-settings = meow
+bvh-start_recording = meow
+bvh-recording = meow
+tracking-unpaused = meow
+tracking-paused = meow
+widget-overlay = meow
+widget-overlay-is_visible_label = meow
+widget-overlay-is_mirrored_label = meow
+widget-drift_compensation-clear = meow
+widget-clear_mounting = meow
+widget-developer_mode = meow
+widget-developer_mode-high_contrast = meow
+widget-developer_mode-precise_rotation = meow
+widget-developer_mode-fast_data_feed = meow
+widget-developer_mode-filter_slimes_and_hmd = meow
+widget-developer_mode-sort_by_name = meow
+widget-developer_mode-raw_slime_rotation = meow
+widget-developer_mode-more_info = meow
+widget-imu_visualizer = meow
+widget-imu_visualizer-preview = meow
+widget-imu_visualizer-hide = meow
+widget-imu_visualizer-rotation_raw = meow
+widget-imu_visualizer-rotation_preview = meow
+widget-imu_visualizer-acceleration = meow
+widget-imu_visualizer-position = meow
+widget-skeleton_visualizer-preview = meow
+widget-skeleton_visualizer-hide = meow
+tracker-status-none = meow
+tracker-status-busy = meow
+tracker-status-error = meow
+tracker-status-disconnected = meow
+tracker-status-occluded = meow
+tracker-status-ok = meow
+tracker-status-timed_out = meow
+tracker-table-column-name = meow
+tracker-table-column-type = meow
+tracker-table-column-battery = meow
+tracker-table-column-ping = meow
+tracker-table-column-tps = meow
+tracker-table-column-temperature = meow
+tracker-table-column-linear-acceleration = meow
+tracker-table-column-rotation = meow
+tracker-table-column-position = meow
+tracker-table-column-url = meow
+tracker-rotation-front = meow
+tracker-rotation-front_left = meow
+tracker-rotation-front_right = meow
+tracker-rotation-left = meow
+tracker-rotation-right = meow
+tracker-rotation-back = meow
+tracker-rotation-back_left = meow
+tracker-rotation-back_right = meow
+tracker-rotation-custom = meow
+tracker-rotation-overriden = meow
+tracker-infos-manufacturer = meow
+tracker-infos-display_name = meow
+tracker-infos-custom_name = meow
+tracker-infos-url = meow
+tracker-infos-version = meow
+tracker-infos-hardware_rev = meow
+tracker-infos-hardware_identifier = meow
+tracker-infos-data_support = meow
+tracker-infos-imu = meow
+tracker-infos-board_type = meow
+tracker-infos-network_version = meow
+tracker-infos-magnetometer = meow
+tracker-infos-magnetometer-status-v1 = meow
+tracker-settings-back = meow
+tracker-settings-title = meow
+tracker-settings-assignment_section = meow
+tracker-settings-assignment_section-description = meow
+tracker-settings-assignment_section-edit = meow
+tracker-settings-mounting_section = meow
+tracker-settings-mounting_section-description = meow
+tracker-settings-mounting_section-edit = meow
+tracker-settings-drift_compensation_section = meow
+tracker-settings-drift_compensation_section-description = meow
+tracker-settings-drift_compensation_section-edit = meow
+tracker-settings-use_mag = meow
+tracker-settings-use_mag-description = meow
+tracker-settings-use_mag-label = meow
+tracker-settings-name_section = meow
+tracker-settings-name_section-description = meow
+tracker-settings-name_section-placeholder = meow
+tracker-settings-name_section-label = meow
+tracker-settings-forget = meow
+tracker-settings-forget-description = meow
+tracker-settings-forget-label = meow
+tracker-settings-update-unavailable = meow
+tracker-settings-update-up_to_date = meow
+tracker-settings-update-available = meow
+tracker-settings-update = meow
+tracker-settings-update-title = meow
+tracker-part_card-no_name = meow
+tracker-part_card-unassigned = meow
+body_assignment_menu = meow
+body_assignment_menu-description = meow
+body_assignment_menu-show_advanced_locations = meow
+body_assignment_menu-manage_trackers = meow
+body_assignment_menu-unassign_tracker = meow
+-tracker_selection-part = meow
+tracker_selection_menu-NONE = meow
+tracker_selection_menu-HEAD = meow
+tracker_selection_menu-NECK = meow
+tracker_selection_menu-RIGHT_SHOULDER = meow
+tracker_selection_menu-RIGHT_UPPER_ARM = meow
+tracker_selection_menu-RIGHT_LOWER_ARM = meow
+tracker_selection_menu-RIGHT_HAND = meow
+tracker_selection_menu-RIGHT_UPPER_LEG = meow
+tracker_selection_menu-RIGHT_LOWER_LEG = meow
+tracker_selection_menu-RIGHT_FOOT = meow
+tracker_selection_menu-RIGHT_CONTROLLER = meow
+tracker_selection_menu-UPPER_CHEST = meow
+tracker_selection_menu-CHEST = meow
+tracker_selection_menu-WAIST = meow
+tracker_selection_menu-HIP = meow
+tracker_selection_menu-LEFT_SHOULDER = meow
+tracker_selection_menu-LEFT_UPPER_ARM = meow
+tracker_selection_menu-LEFT_LOWER_ARM = meow
+tracker_selection_menu-LEFT_HAND = meow
+tracker_selection_menu-LEFT_UPPER_LEG = meow
+tracker_selection_menu-LEFT_LOWER_LEG = meow
+tracker_selection_menu-LEFT_FOOT = meow
+tracker_selection_menu-LEFT_CONTROLLER = meow
+tracker_selection_menu-unassigned = meow
+tracker_selection_menu-assigned = meow
+tracker_selection_menu-dont_assign = meow
+tracker_selection_menu-neck_warning = meow
+tracker_selection_menu-neck_warning-done = meow
+tracker_selection_menu-neck_warning-cancel = meow
+mounting_selection_menu = meow
+mounting_selection_menu-close = meow
+settings-sidebar-title = meow
+settings-sidebar-general = meow
+settings-sidebar-tracker_mechanics = meow
+settings-sidebar-fk_settings = meow
+settings-sidebar-gesture_control = meow
+settings-sidebar-interface = meow
+settings-sidebar-osc_router = meow
+settings-sidebar-osc_trackers = meow
+settings-sidebar-utils = meow
+settings-sidebar-serial = meow
+settings-sidebar-appearance = meow
+settings-sidebar-notifications = meow
+settings-sidebar-firmware-tool = meow
+settings-sidebar-advanced = meow
+settings-general-steamvr = meow
+settings-general-steamvr-subtitle = meow
+settings-general-steamvr-description = meow
+settings-general-steamvr-trackers-waist = meow
+settings-general-steamvr-trackers-chest = meow
+settings-general-steamvr-trackers-left_foot = meow
+settings-general-steamvr-trackers-right_foot = meow
+settings-general-steamvr-trackers-left_knee = meow
+settings-general-steamvr-trackers-right_knee = meow
+settings-general-steamvr-trackers-left_elbow = meow
+settings-general-steamvr-trackers-right_elbow = meow
+settings-general-steamvr-trackers-left_hand = meow
+settings-general-steamvr-trackers-right_hand = meow
+settings-general-steamvr-trackers-tracker_toggling = meow
+settings-general-steamvr-trackers-tracker_toggling-description = meow
+settings-general-steamvr-trackers-tracker_toggling-label = meow
+settings-general-steamvr-trackers-hands-warning = meow
+settings-general-steamvr-trackers-hands-warning-cancel = meow
+settings-general-steamvr-trackers-hands-warning-done = meow
+settings-general-tracker_mechanics = meow
+settings-general-tracker_mechanics-filtering = meow
+settings-general-tracker_mechanics-filtering-description = meow
+settings-general-tracker_mechanics-filtering-type = meow
+settings-general-tracker_mechanics-filtering-type-none = meow
+settings-general-tracker_mechanics-filtering-type-none-description = meow
+settings-general-tracker_mechanics-filtering-type-smoothing = meow
+settings-general-tracker_mechanics-filtering-type-smoothing-description = meow
+settings-general-tracker_mechanics-filtering-type-prediction = meow
+settings-general-tracker_mechanics-filtering-type-prediction-description = meow
+settings-general-tracker_mechanics-filtering-amount = meow
+settings-general-tracker_mechanics-yaw-reset-smooth-time = meow
+settings-general-tracker_mechanics-drift_compensation = meow
+settings-general-tracker_mechanics-drift_compensation-description = meow
+settings-general-tracker_mechanics-drift_compensation-enabled-label = meow
+settings-general-tracker_mechanics-drift_compensation-prediction = meow
+settings-general-tracker_mechanics-drift_compensation-prediction-description = meow
+settings-general-tracker_mechanics-drift_compensation-prediction-label = meow
+settings-general-tracker_mechanics-drift_compensation_warning = meow
+settings-general-tracker_mechanics-drift_compensation_warning-cancel = meow
+settings-general-tracker_mechanics-drift_compensation_warning-done = meow
+settings-general-tracker_mechanics-drift_compensation-amount-label = meow
+settings-general-tracker_mechanics-drift_compensation-max_resets-label = meow
+settings-general-tracker_mechanics-save_mounting_reset = meow
+settings-general-tracker_mechanics-save_mounting_reset-description = meow
+settings-general-tracker_mechanics-save_mounting_reset-enabled-label = meow
+settings-general-tracker_mechanics-use_mag_on_all_trackers = meow
+settings-general-tracker_mechanics-use_mag_on_all_trackers-description = meow
+settings-general-tracker_mechanics-use_mag_on_all_trackers-label = meow
+settings-general-fk_settings = meow
+settings-general-fk_settings-leg_tweak-floor_clip = meow
+settings-general-fk_settings-leg_tweak-skating_correction = meow
+settings-general-fk_settings-leg_tweak-toe_snap = meow
+settings-general-fk_settings-leg_tweak-foot_plant = meow
+settings-general-fk_settings-leg_tweak-skating_correction-amount = meow
+settings-general-fk_settings-leg_tweak-skating_correction-description = meow
+settings-general-fk_settings-leg_tweak-floor_clip-description = meow
+settings-general-fk_settings-leg_tweak-toe_snap-description = meow
+settings-general-fk_settings-leg_tweak-foot_plant-description = meow
+settings-general-fk_settings-leg_fk = meow
+settings-general-fk_settings-leg_fk-reset_mounting_feet-description = meow
+settings-general-fk_settings-leg_fk-reset_mounting_feet = meow
+settings-general-fk_settings-enforce_joint_constraints = meow
+settings-general-fk_settings-enforce_joint_constraints-enforce_constraints = meow
+settings-general-fk_settings-enforce_joint_constraints-enforce_constraints-description = meow
+settings-general-fk_settings-enforce_joint_constraints-correct_constraints = meow
+settings-general-fk_settings-enforce_joint_constraints-correct_constraints-description = meow
+settings-general-fk_settings-arm_fk = meow
+settings-general-fk_settings-arm_fk-description = meow
+settings-general-fk_settings-arm_fk-force_arms = meow
+settings-general-fk_settings-reset_settings = meow
+settings-general-fk_settings-reset_settings-reset_hmd_pitch-description = meow
+settings-general-fk_settings-reset_settings-reset_hmd_pitch = meow
+settings-general-fk_settings-arm_fk-reset_mode-description = meow
+settings-general-fk_settings-arm_fk-back = meow
+settings-general-fk_settings-arm_fk-back-description = meow
+settings-general-fk_settings-arm_fk-tpose_up = meow
+settings-general-fk_settings-arm_fk-tpose_up-description = meow
+settings-general-fk_settings-arm_fk-tpose_down = meow
+settings-general-fk_settings-arm_fk-tpose_down-description = meow
+settings-general-fk_settings-arm_fk-forward = meow
+settings-general-fk_settings-arm_fk-forward-description = meow
+settings-general-fk_settings-skeleton_settings-toggles = meow
+settings-general-fk_settings-skeleton_settings-description = meow
+settings-general-fk_settings-skeleton_settings-extended_spine_model = meow
+settings-general-fk_settings-skeleton_settings-extended_pelvis_model = meow
+settings-general-fk_settings-skeleton_settings-extended_knees_model = meow
+settings-general-fk_settings-skeleton_settings-ratios = meow
+settings-general-fk_settings-skeleton_settings-ratios-description = meow
+settings-general-fk_settings-skeleton_settings-impute_waist_from_chest_hip = meow
+settings-general-fk_settings-skeleton_settings-impute_waist_from_chest_legs = meow
+settings-general-fk_settings-skeleton_settings-impute_hip_from_chest_legs = meow
+settings-general-fk_settings-skeleton_settings-impute_hip_from_waist_legs = meow
+settings-general-fk_settings-skeleton_settings-interp_hip_legs = meow
+settings-general-fk_settings-skeleton_settings-interp_knee_tracker_ankle = meow
+settings-general-fk_settings-skeleton_settings-interp_knee_ankle = meow
+settings-general-fk_settings-self_localization-title = meow
+settings-general-fk_settings-self_localization-description = meow
+settings-general-fk_settings-vive_emulation-title = meow
+settings-general-fk_settings-vive_emulation-description = meow
+settings-general-fk_settings-vive_emulation-label = meow
+settings-general-gesture_control = meow
+settings-general-gesture_control-subtitle = meow
+settings-general-gesture_control-description = meow
+settings-general-gesture_control-taps = meow
+settings-general-gesture_control-trackers = meow
+settings-general-gesture_control-yawResetEnabled = meow
+settings-general-gesture_control-yawResetDelay = meow
+settings-general-gesture_control-yawResetTaps = meow
+settings-general-gesture_control-fullResetEnabled = meow
+settings-general-gesture_control-fullResetDelay = meow
+settings-general-gesture_control-fullResetTaps = meow
+settings-general-gesture_control-mountingResetEnabled = meow
+settings-general-gesture_control-mountingResetDelay = meow
+settings-general-gesture_control-mountingResetTaps = meow
+settings-general-gesture_control-numberTrackersOverThreshold = meow
+settings-general-gesture_control-numberTrackersOverThreshold-description = meow
+settings-interface-appearance = meow
+settings-general-interface-dev_mode = meow
+settings-general-interface-dev_mode-description = meow
+settings-general-interface-dev_mode-label = meow
+settings-general-interface-theme = meow
+settings-general-interface-show-navbar-onboarding = meow
+settings-general-interface-show-navbar-onboarding-description = meow
+settings-general-interface-show-navbar-onboarding-label = meow
+settings-general-interface-lang = meow
+settings-general-interface-lang-description = meow
+settings-general-interface-lang-placeholder = meow
+settings-interface-appearance-font = meow
+settings-interface-appearance-font-description = meow
+settings-interface-appearance-font-placeholder = meow
+settings-interface-appearance-font-os_font = meow
+settings-interface-appearance-font-slime_font = meow
+settings-interface-appearance-font_size = meow
+settings-interface-appearance-font_size-description = meow
+settings-interface-appearance-decorations = meow
+settings-interface-appearance-decorations-description = meow
+settings-interface-appearance-decorations-label = meow
+settings-interface-notifications = meow
+settings-general-interface-serial_detection = meow
+settings-general-interface-serial_detection-description = meow
+settings-general-interface-serial_detection-label = meow
+settings-general-interface-feedback_sound = meow
+settings-general-interface-feedback_sound-description = meow
+settings-general-interface-feedback_sound-label = meow
+settings-general-interface-feedback_sound-volume = meow
+settings-general-interface-connected_trackers_warning = meow
+settings-general-interface-connected_trackers_warning-description = meow
+settings-general-interface-connected_trackers_warning-label = meow
+settings-general-interface-use_tray = meow
+settings-general-interface-use_tray-description = meow
+settings-general-interface-use_tray-label = meow
+settings-general-interface-discord_presence = meow
+settings-general-interface-discord_presence-description = meow
+settings-general-interface-discord_presence-label = meow
+settings-general-interface-discord_presence-message = meow
+settings-serial = meow
+settings-serial-description = meow
+settings-serial-connection_lost = meow
+settings-serial-reboot = meow
+settings-serial-factory_reset = meow
+settings-serial-factory_reset-warning = meow
+settings-serial-factory_reset-warning-ok = meow
+settings-serial-factory_reset-warning-cancel = meow
+settings-serial-get_infos = meow
+settings-serial-serial_select = meow
+settings-serial-auto_dropdown_item = meow
+settings-serial-get_wifi_scan = meow
+settings-serial-file_type = meow
+settings-serial-save_logs = meow
+settings-osc-router = meow
+settings-osc-router-description = meow
+settings-osc-router-enable = meow
+settings-osc-router-enable-description = meow
+settings-osc-router-enable-label = meow
+settings-osc-router-network = meow
+settings-osc-router-network-description = meow
+settings-osc-router-network-port_in = meow
+    .label = meow
+    .placeholder = meow
+settings-osc-router-network-port_out = meow
+    .label = meow
+    .placeholder = meow
+settings-osc-router-network-address = meow
+settings-osc-router-network-address-description = meow
+settings-osc-router-network-address-placeholder = meow
+settings-osc-vrchat = meow
+settings-osc-vrchat-description-v1 = meow
+settings-osc-vrchat-enable = meow
+settings-osc-vrchat-enable-description = meow
+settings-osc-vrchat-enable-label = meow
+settings-osc-vrchat-network = meow
+settings-osc-vrchat-network-description-v1 = meow
+settings-osc-vrchat-network-port_in = meow
+    .label = meow
+    .placeholder = meow
+settings-osc-vrchat-network-port_out = meow
+    .label = meow
+    .placeholder = meow
+settings-osc-vrchat-network-address = meow
+settings-osc-vrchat-network-address-description-v1 = meow
+settings-osc-vrchat-network-address-placeholder = meow
+settings-osc-vrchat-network-trackers = meow
+settings-osc-vrchat-network-trackers-description = meow
+settings-osc-vrchat-network-trackers-chest = meow
+settings-osc-vrchat-network-trackers-hip = meow
+settings-osc-vrchat-network-trackers-knees = meow
+settings-osc-vrchat-network-trackers-feet = meow
+settings-osc-vrchat-network-trackers-elbows = meow
+settings-osc-vmc = meow
+settings-osc-vmc-description = meow
+settings-osc-vmc-enable = meow
+settings-osc-vmc-enable-description = meow
+settings-osc-vmc-enable-label = meow
+settings-osc-vmc-network = meow
+settings-osc-vmc-network-description = meow
+settings-osc-vmc-network-port_in = meow
+    .label = meow
+    .placeholder = meow
+settings-osc-vmc-network-port_out = meow
+    .label = meow
+    .placeholder = meow
+settings-osc-vmc-network-address = meow
+settings-osc-vmc-network-address-description = meow
+settings-osc-vmc-network-address-placeholder = meow
+settings-osc-vmc-vrm = meow
+settings-osc-vmc-vrm-description = meow
+settings-osc-vmc-vrm-untitled_model = meow
+settings-osc-vmc-vrm-file_select = meow
+settings-osc-vmc-anchor_hip = meow
+settings-osc-vmc-anchor_hip-description = meow
+settings-osc-vmc-anchor_hip-label = meow
+settings-osc-vmc-mirror_tracking = meow
+settings-osc-vmc-mirror_tracking-description = meow
+settings-osc-vmc-mirror_tracking-label = meow
+settings-utils-advanced = meow
+settings-utils-advanced-reset-gui = meow
+settings-utils-advanced-reset-gui-description = meow
+settings-utils-advanced-reset-gui-label = meow
+settings-utils-advanced-reset-server = meow
+settings-utils-advanced-reset-server-description = meow
+settings-utils-advanced-reset-server-label = meow
+settings-utils-advanced-reset-all = meow
+settings-utils-advanced-reset-all-description = meow
+settings-utils-advanced-reset-all-label = meow
+settings-utils-advanced-reset_warning = meow
+settings-utils-advanced-reset_warning-reset = meow
+settings-utils-advanced-reset_warning-cancel = meow
+settings-utils-advanced-open_data = meow
+settings-utils-advanced-open_data-description = meow
+settings-utils-advanced-open_data-label = meow
+onboarding-skip = meow
+onboarding-continue = meow
+onboarding-wip = meow
+onboarding-previous_step = meow
+onboarding-setup_warning = meow
+onboarding-setup_warning-skip = meow
+onboarding-setup_warning-cancel = meow
+onboarding-wifi_creds-back = meow
+onboarding-wifi_creds = meow
+onboarding-wifi_creds-description = meow
+onboarding-wifi_creds-skip = meow
+onboarding-wifi_creds-submit = meow
+onboarding-wifi_creds-ssid = meow
+    .label = meow
+    .placeholder = meow
+onboarding-wifi_creds-ssid-required = meow
+onboarding-wifi_creds-password = meow
+    .label = meow
+    .placeholder = meow
+onboarding-reset_tutorial-back = meow
+onboarding-reset_tutorial = meow
+onboarding-reset_tutorial-explanation = meow
+onboarding-reset_tutorial-skip = meow
+onboarding-reset_tutorial-0 = meow
+onboarding-reset_tutorial-1 = meow
+onboarding-reset_tutorial-2 = meow
+onboarding-home = meow
+onboarding-home-start = meow
+onboarding-enter_vr-back = meow
+onboarding-enter_vr-title = meow
+onboarding-enter_vr-description = meow
+onboarding-enter_vr-ready = meow
+onboarding-done-title = meow
+onboarding-done-description = meow
+onboarding-done-close = meow
+onboarding-connect_tracker-back = meow
+onboarding-connect_tracker-title = meow
+onboarding-connect_tracker-description-p0-v1 = meow
+onboarding-connect_tracker-description-p1-v1 = meow
+onboarding-connect_tracker-issue-serial = meow
+onboarding-connect_tracker-usb = meow
+onboarding-connect_tracker-connection_status-none = meow
+onboarding-connect_tracker-connection_status-serial_init = meow
+onboarding-connect_tracker-connection_status-obtaining_mac_address = meow
+onboarding-connect_tracker-connection_status-provisioning = meow
+onboarding-connect_tracker-connection_status-connecting = meow
+onboarding-connect_tracker-connection_status-looking_for_server = meow
+onboarding-connect_tracker-connection_status-connection_error = meow
+onboarding-connect_tracker-connection_status-could_not_find_server = meow
+onboarding-connect_tracker-connection_status-done = meow
+onboarding-connect_tracker-connected_trackers = meow
+onboarding-connect_tracker-next = meow
+onboarding-calibration_tutorial = meow
+onboarding-calibration_tutorial-subtitle = meow
+onboarding-calibration_tutorial-description = meow
+onboarding-calibration_tutorial-calibrate = meow
+onboarding-calibration_tutorial-status-waiting = meow
+onboarding-calibration_tutorial-status-calibrating = meow
+onboarding-calibration_tutorial-status-success = meow
+onboarding-calibration_tutorial-status-error = meow
+onboarding-calibration_tutorial-skip = meow
+onboarding-assignment_tutorial = meow
+onboarding-assignment_tutorial-first_step = meow
+onboarding-assignment_tutorial-sticker = meow
+onboarding-assignment_tutorial-second_step-v2 = meow
+onboarding-assignment_tutorial-second_step-continuation-v2 = meow
+onboarding-assignment_tutorial-done = meow
+onboarding-assign_trackers-back = meow
+onboarding-assign_trackers-title = meow
+onboarding-assign_trackers-description = meow
+onboarding-assign_trackers-assigned = meow
+onboarding-assign_trackers-advanced = meow
+onboarding-assign_trackers-next = meow
+onboarding-assign_trackers-mirror_view = meow
+onboarding-assign_trackers-option-amount = meow
+onboarding-assign_trackers-option-label = meow
+onboarding-assign_trackers-option-description = meow
+onboarding-assign_trackers-warning-LEFT_FOOT = meow
+onboarding-assign_trackers-warning-RIGHT_FOOT = meow
+onboarding-assign_trackers-warning-LEFT_LOWER_LEG = meow
+onboarding-assign_trackers-warning-RIGHT_LOWER_LEG = meow
+onboarding-assign_trackers-warning-LEFT_UPPER_LEG = meow
+onboarding-assign_trackers-warning-RIGHT_UPPER_LEG = meow
+onboarding-assign_trackers-warning-HIP = meow
+onboarding-assign_trackers-warning-WAIST = meow
+onboarding-choose_mounting = meow
+onboarding-choose_mounting-description = meow
+onboarding-choose_mounting-auto_mounting = meow
+onboarding-choose_mounting-auto_mounting-label-v2 = meow
+onboarding-choose_mounting-auto_mounting-description = meow
+onboarding-choose_mounting-manual_mounting = meow
+onboarding-choose_mounting-manual_mounting-label-v2 = meow
+onboarding-choose_mounting-manual_mounting-description = meow
+onboarding-choose_mounting-manual_modal-title = meow
+onboarding-choose_mounting-manual_modal-description = meow
+onboarding-choose_mounting-manual_modal-confirm = meow
+onboarding-choose_mounting-manual_modal-cancel = meow
+onboarding-manual_mounting-back = meow
+onboarding-manual_mounting = meow
+onboarding-manual_mounting-description = meow
+onboarding-manual_mounting-auto_mounting = meow
+onboarding-manual_mounting-next = meow
+onboarding-automatic_mounting-back = meow
+onboarding-automatic_mounting-title = meow
+onboarding-automatic_mounting-description = meow
+onboarding-automatic_mounting-manual_mounting = meow
+onboarding-automatic_mounting-next = meow
+onboarding-automatic_mounting-prev_step = meow
+onboarding-automatic_mounting-done-title = meow
+onboarding-automatic_mounting-done-description = meow
+onboarding-automatic_mounting-done-restart = meow
+onboarding-automatic_mounting-mounting_reset-title = meow
+onboarding-automatic_mounting-mounting_reset-step-0 = meow
+onboarding-automatic_mounting-mounting_reset-step-1 = meow
+onboarding-automatic_mounting-preparation-title = meow
+onboarding-automatic_mounting-preparation-step-0 = meow
+onboarding-automatic_mounting-preparation-step-1 = meow
+onboarding-automatic_mounting-put_trackers_on-title = meow
+onboarding-automatic_mounting-put_trackers_on-description = meow
+onboarding-automatic_mounting-put_trackers_on-next = meow
+onboarding-choose_proportions = meow
+onboarding-choose_proportions-description-v1 = meow
+onboarding-choose_proportions-auto_proportions = meow
+onboarding-choose_proportions-auto_proportions-subtitle = meow
+onboarding-choose_proportions-auto_proportions-descriptionv3 = meow
+onboarding-choose_proportions-manual_proportions = meow
+onboarding-choose_proportions-manual_proportions-subtitle = meow
+onboarding-choose_proportions-manual_proportions-description = meow
+onboarding-choose_proportions-scaled_proportions = meow
+onboarding-choose_proportions-scaled_proportions-subtitle = meow
+onboarding-choose_proportions-scaled_proportions-description = meow
+onboarding-choose_proportions-scaled_proportions-button = meow
+onboarding-choose_proportions-export = meow
+onboarding-choose_proportions-import = meow
+onboarding-choose_proportions-import-success = meow
+onboarding-choose_proportions-import-failed = meow
+onboarding-choose_proportions-file_type = meow
+onboarding-manual_proportions-back = meow
+onboarding-manual_proportions-title = meow
+onboarding-manual_proportions-precision = meow
+onboarding-manual_proportions-auto = meow
+onboarding-manual_proportions-ratio = meow
+onboarding-automatic_proportions-back = meow
+onboarding-automatic_proportions-title = meow
+onboarding-automatic_proportions-description = meow
+onboarding-automatic_proportions-manual = meow
+onboarding-automatic_proportions-prev_step = meow
+onboarding-automatic_proportions-put_trackers_on-title = meow
+onboarding-automatic_proportions-put_trackers_on-description = meow
+onboarding-automatic_proportions-put_trackers_on-next = meow
+onboarding-automatic_proportions-requirements-title = meow
+onboarding-automatic_proportions-requirements-descriptionv2 = meow
+onboarding-automatic_proportions-requirements-next = meow
+onboarding-automatic_proportions-check_height-title-v2 = meow
+onboarding-automatic_proportions-check_height-description-v2 = meow
+onboarding-automatic_proportions-check_height-calculation_warning-v2 = meow
+onboarding-automatic_proportions-check_height-guardian_tip = meow
+onboarding-automatic_proportions-check_height-unknown = meow
+onboarding-automatic_proportions-check_height-hmd_height2 = meow
+onboarding-automatic_proportions-check_height-measure-start = meow
+onboarding-automatic_proportions-check_height-measure-stop = meow
+onboarding-automatic_proportions-check_height-measure-reset = meow
+onboarding-automatic_proportions-check_height-next_step = meow
+onboarding-automatic_proportions-check_floor_height-title = meow
+onboarding-automatic_proportions-check_floor_height-description = meow
+onboarding-automatic_proportions-check_floor_height-calculation_warning = meow
+onboarding-automatic_proportions-check_floor_height-floor_height = meow
+onboarding-automatic_proportions-check_floor_height-measure-start = meow
+onboarding-automatic_proportions-check_floor_height-measure-stop = meow
+onboarding-automatic_proportions-check_floor_height-measure-reset = meow
+onboarding-automatic_proportions-check_floor_height-skip_step = meow
+onboarding-automatic_proportions-check_floor_height-next_step = meow
+onboarding-automatic_proportions-start_recording-title = meow
+onboarding-automatic_proportions-start_recording-description = meow
+onboarding-automatic_proportions-start_recording-next = meow
+onboarding-automatic_proportions-recording-title = meow
+onboarding-automatic_proportions-recording-description-p0 = meow
+onboarding-automatic_proportions-recording-description-p1 = meow
+onboarding-automatic_proportions-recording-steps = meow
+onboarding-automatic_proportions-recording-processing = meow
+onboarding-automatic_proportions-recording-timer = meow
+onboarding-automatic_proportions-verify_results-title = meow
+onboarding-automatic_proportions-verify_results-description = meow
+onboarding-automatic_proportions-verify_results-results = meow
+onboarding-automatic_proportions-verify_results-processing = meow
+onboarding-automatic_proportions-verify_results-redo = meow
+onboarding-automatic_proportions-verify_results-confirm = meow
+onboarding-automatic_proportions-done-title = meow
+onboarding-automatic_proportions-done-description = meow
+onboarding-automatic_proportions-error_modal-v2 = meow
+onboarding-automatic_proportions-error_modal-confirm = meow
+onboarding-automatic_proportions-smol_warning = meow
+onboarding-automatic_proportions-smol_warning-cancel = meow
+onboarding-scaled_proportions-title = meow
+onboarding-scaled_proportions-description = meow
+onboarding-scaled_proportions-manual_height-title = meow
+onboarding-scaled_proportions-manual_height-description = meow
+onboarding-scaled_proportions-manual_height-missing_steamvr = meow
+onboarding-scaled_proportions-manual_height-height = meow
+onboarding-scaled_proportions-manual_height-next_step = meow
+onboarding-scaled_proportions-reset_proportion-title = meow
+onboarding-scaled_proportions-reset_proportion-description = meow
+onboarding-scaled_proportions-done-title = meow
+onboarding-scaled_proportions-done-description = meow
+home-no_trackers = meow
+trackers_still_on-modal-title = meow
+trackers_still_on-modal-description = meow
+trackers_still_on-modal-confirm = meow
+trackers_still_on-modal-cancel = meow
+status_system-StatusTrackerReset = meow
+status_system-StatusSteamVRDisconnected = meow
+status_system-StatusTrackerError = meow
+status_system-StatusUnassignedHMD = meow
+firmware_tool-next_step = meow
+firmware_tool-previous_step = meow
+firmware_tool-ok = meow
+firmware_tool-retry = meow
+firmware_tool-loading = meow
+firmware_tool = meow
+firmware_tool-description = meow
+firmware_tool-not_available = meow
+firmware_tool-not_compatible = meow
+firmware_tool-board_step = meow
+firmware_tool-board_step-description = meow
+firmware_tool-board_pins_step = meow
+firmware_tool-board_pins_step-description = meow
+firmware_tool-board_pins_step-enable_led = meow
+firmware_tool-board_pins_step-led_pin = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-board_pins_step-battery_type = meow
+firmware_tool-board_pins_step-battery_type-BAT_EXTERNAL = meow
+firmware_tool-board_pins_step-battery_type-BAT_INTERNAL = meow
+firmware_tool-board_pins_step-battery_type-BAT_INTERNAL_MCP3021 = meow
+firmware_tool-board_pins_step-battery_type-BAT_MCP3021 = meow
+firmware_tool-board_pins_step-battery_sensor_pin = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-board_pins_step-battery_resistor = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-board_pins_step-battery_shield_resistor-0 = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-board_pins_step-battery_shield_resistor-1 = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-add_imus_step = meow
+firmware_tool-add_imus_step-description = meow
+firmware_tool-add_imus_step-imu_type-label = meow
+firmware_tool-add_imus_step-imu_type-placeholder = meow
+firmware_tool-add_imus_step-imu_rotation = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-add_imus_step-scl_pin = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-add_imus_step-sda_pin = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-add_imus_step-int_pin = meow
+    .label = meow
+    .placeholder = meow
+firmware_tool-add_imus_step-optional_tracker = meow
+    .label = meow
+firmware_tool-add_imus_step-show_less = meow
+firmware_tool-add_imus_step-show_more = meow
+firmware_tool-add_imus_step-add_more = meow
+firmware_tool-select_firmware_step = meow
+firmware_tool-select_firmware_step-description = meow
+firmware_tool-select_firmware_step-show-third-party = meow
+    .label = meow
+firmware_tool-flash_method_step = meow
+firmware_tool-flash_method_step-description = meow
+firmware_tool-flash_method_step-ota = meow
+    .label = meow
+    .description = meow
+firmware_tool-flash_method_step-serial = meow
+    .label = meow
+    .description = meow
+firmware_tool-flashbtn_step = meow
+firmware_tool-flashbtn_step-description = meow
+firmware_tool-flashbtn_step-board_SLIMEVR = meow
+firmware_tool-flashbtn_step-board_SLIMEVR-r11 = meow
+firmware_tool-flashbtn_step-board_SLIMEVR-r12 = meow
+firmware_tool-flashbtn_step-board_SLIMEVR-r14 = meow
+firmware_tool-flashbtn_step-board_OTHER = meow
+firmware_tool-flash_method_ota-devices = meow
+firmware_tool-flash_method_ota-no_devices = meow
+firmware_tool-flash_method_serial-wifi = meow
+firmware_tool-flash_method_serial-devices-label = meow
+firmware_tool-flash_method_serial-devices-placeholder = meow
+firmware_tool-flash_method_serial-no_devices = meow
+firmware_tool-build_step = meow
+firmware_tool-build_step-description = meow
+firmware_tool-flashing_step = meow
+firmware_tool-flashing_step-description = meow
+firmware_tool-flashing_step-warning = meow
+firmware_tool-flashing_step-flash_more = meow
+firmware_tool-flashing_step-exit = meow
+firmware_tool-build-CREATING_BUILD_FOLDER = meow
+firmware_tool-build-DOWNLOADING_FIRMWARE = meow
+firmware_tool-build-EXTRACTING_FIRMWARE = meow
+firmware_tool-build-SETTING_UP_DEFINES = meow
+firmware_tool-build-BUILDING = meow
+firmware_tool-build-SAVING = meow
+firmware_tool-build-DONE = meow
+firmware_tool-build-ERROR = meow
+firmware_update-status-DOWNLOADING = meow
+firmware_update-status-NEED_MANUAL_REBOOT = meow
+firmware_update-status-AUTHENTICATING = meow
+firmware_update-status-UPLOADING = meow
+firmware_update-status-SYNCING_WITH_MCU = meow
+firmware_update-status-REBOOTING = meow
+firmware_update-status-PROVISIONING = meow
+firmware_update-status-DONE = meow
+firmware_update-status-ERROR_DEVICE_NOT_FOUND = meow
+firmware_update-status-ERROR_TIMEOUT = meow
+firmware_update-status-ERROR_DOWNLOAD_FAILED = meow
+firmware_update-status-ERROR_AUTHENTICATION_FAILED = meow
+firmware_update-status-ERROR_UPLOAD_FAILED = meow
+firmware_update-status-ERROR_PROVISIONING_FAILED = meow
+firmware_update-status-ERROR_UNSUPPORTED_METHOD = meow
+firmware_update-status-ERROR_UNKNOWN = meow
+firmware_update-title = meow
+firmware_update-devices = meow
+firmware_update-devices-description = meow
+firmware_update-no_devices = meow
+firmware_update-changelog-title = meow
+firmware_update-looking_for_devices = meow
+firmware_update-retry = meow
+firmware_update-update = meow
+firmware_update-exit = meow
+tray_menu-show = meow
+tray_menu-hide = meow
+tray_menu-quit = meow
+tray_or_exit_modal-title = meow
+tray_or_exit_modal-description = meow
+tray_or_exit_modal-radio-exit = meow
+tray_or_exit_modal-radio-tray = meow
+tray_or_exit_modal-submit = meow
+tray_or_exit_modal-cancel = meow
+unknown_device-modal-title = meow
+unknown_device-modal-description = meow
+unknown_device-modal-confirm = meow
+unknown_device-modal-forget = meow
